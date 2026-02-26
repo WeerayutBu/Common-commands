@@ -33,3 +33,5 @@ service ssh restart
 # id_rsa.pub -> .ssh/authorized_keys
 cat ~/.ssh/id_rsa.pub | ssh username@xx.xx.xx.xx 'cat >> .ssh/authorized_keys'
 ```
+#### AWS
+- ssh -i "aws.pem" ec2-user@xxx.compute-1.amazonaws.com
