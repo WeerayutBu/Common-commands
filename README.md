@@ -51,6 +51,6 @@ python3 -m pip install --upgrade pip setuptools wheel
 startup
 ```bash
 echo 'alias python=python3' >> ~/.bashrc
-echo 'alias python=python3' >> source /tmp/testenv/bin/activate
+source /tmp/testenv/bin/activate
 source ~/.bashrc
 ```
