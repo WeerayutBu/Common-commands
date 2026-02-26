@@ -48,3 +48,9 @@ python3 -m venv --help
 python3 -m venv /tmp/testenv
 python3 -m pip install --upgrade pip setuptools wheel
 ```
+start-up
+```bash
+echo 'alias python=python3' >> ~/.bashrc
+echo 'alias python=python3' >> source /tmp/testenv/bin/activate
+source ~/.bashrc
+```
