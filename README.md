@@ -46,4 +46,5 @@ python3 -c "import sys; print(sys.executable)"
 sudo dnf install -y python3 python3-pip python3-virtualenv
 python3 -m venv --help
 python3 -m venv /tmp/testenv
+python3 -m pip install --upgrade pip setuptools wheel
 ```
