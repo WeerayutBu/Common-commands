@@ -34,4 +34,16 @@ service ssh restart
 cat ~/.ssh/id_rsa.pub | ssh username@xx.xx.xx.xx 'cat >> .ssh/authorized_keys'
 ```
 #### AWS
-- ssh -i "aws.pem" ec2-user@xxx.compute-1.amazonaws.com
+```bash
+# ssh using **ec2-user
+ssh -i "aws.pem" ec2-user@xxx.compute-1.amazonaws.com
+
+sudo yum install -y python3
+python3 --version
+python3 -c "import sys; print(sys.executable)"
+
+# environment moduls
+sudo dnf install -y python3 python3-pip python3-virtualenv
+python3 -m venv --help
+python3 -m venv /tmp/testenv
+```
